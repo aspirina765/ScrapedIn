@@ -1,4 +1,4 @@
-# ScrapedIn
+# ScrapedIn (Python 3.7.7)
 Gere endereços de e-mail em potencial do LinkedIn
 
 ## Descrição

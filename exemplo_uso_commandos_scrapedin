@@ -1,0 +1,12 @@
+# Scraping de emails por Nome de Empresa : 
+./scrapedin.py -c "Taking" -o filename.csv -u molinalucas765@gmail.com -s {first:.1}{last}@{domain}.com
+
+# Scraping de emails por Geo-região - busca emails de usuários de uma empresa dentro de uma região 
+./scrapedin.py -c "Taking" -o filename.csv -u molinalucas765@gmail.com -s
+{first}.{last}@{domain}.com -g "São Paulo Area"
+
+# Scrape de emails por Indústria - busca emails de usuários de várias em empresas de mesmo nome, mas de indústrias diferentes
+./scrapedin.py -c "Taking Inc." -o filename.csv -u molinalucas765@gmail.com -i Consuntoria
+
+# Lista código e nome de Geo-regiões/Indústrias válidas para fazer o scrape
+./scrapedin.py -l -g "São Paulo Area" -i "Consuntoria"
